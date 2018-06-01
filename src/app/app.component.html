@@ -1,0 +1,20 @@
+<h1> ngx-compact-number </h1>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">n</th>
+      <th scope="col">compactNumber</th>
+      <th scope="col">compactNumber:1</th>
+      <th scope="col">compactNumber:0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let n of numbers">
+      <td> {{ n }}</td>
+      <td> {{ n | compactNumber }}</td>
+      <td> {{ n | compactNumber:1 }}</td>
+      <td> {{ n | compactNumber:0 }}</td>
+    </tr>
+  </tbody>
+</table>
