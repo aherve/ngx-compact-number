@@ -7,15 +7,12 @@
   - name: 'demo lint'
     service: angular
     command: yarn run ng lint ngxCompactNumberDemo
+  - name: 'library build prod'
+    service: angular
+    command: yarn run ng build --prod ngx-compact-number
   - name: 'library build'
     service: angular
-    command: yarn run ng build ngx-compact-number
+    command: yarn run ng build --prod ngx-compact-number
   - name: 'demo build'
     service: angular
     command: yarn run ng build ngxCompactNumberDemo
-  - name: 'library tests'
-    service: angular
-    command: yarn run ng test --project ngx-compact-number --watch=false
-  - name: 'demo tests'
-    service: angular
-    command: yarn run ng test --project ngxCompactNumberDemo --watch=false
