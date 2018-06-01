@@ -1,7 +1,6 @@
 angular:
-  build:
-    path: './'
-    dockerfile_path: 'Dockerfile'
+  build: '.'
   volumes:
     - './:/app'
     - '/app/node_modules'
+
