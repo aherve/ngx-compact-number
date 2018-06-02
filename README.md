@@ -2,7 +2,7 @@
 
 Display [big] numbers in [metric notation](https://en.wikipedia.org/wiki/Metric_prefix) (1.2k, 12M...) to gain some space:
 
-`{{ 12000 | compactNumber }}  =>  '12k'` (see [more examples](#Examples))
+`{{ 12000 | compactNumber }}  =>  '12k'` (see [more examples](#examples))
 
 ## Installation
 
