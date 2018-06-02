@@ -1,8 +1,17 @@
 {
   "name": "ngx-compact-number",
-  "version": "0.0.1",
+  "author": {
+    "name": "Aurélien Hervé",
+    "email": "mail@aurelien-herve.com"
+  },
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
-  }
+  },
+  "homepage": "https://github.com/aherve/ngx-compact-number",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/aherve/ngx-compact-number/tree/master/projects/ngx-compact-number"
+	}
 }
