@@ -7,9 +7,6 @@
   - name: 'demo lint'
     service: angular
     command: yarn run ng lint ngxCompactNumberDemo
-  - name: 'library build prod'
-    service: angular
-    command: yarn run ng build --prod ngx-compact-number
   - name: 'library build'
     service: angular
     command: yarn run ng build --prod ngx-compact-number

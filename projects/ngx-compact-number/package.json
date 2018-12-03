@@ -4,10 +4,10 @@
     "name": "Aurélien Hervé",
     "email": "mail@aurelien-herve.com"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+    "@angular/common": "^6.0.0-rc.0 || >=6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || >=6.0.0"
   },
   "homepage": "https://github.com/aherve/ngx-compact-number",
 	"repository" : {
